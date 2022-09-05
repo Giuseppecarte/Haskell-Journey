@@ -1,10 +1,22 @@
 {-
-        Count the Digit problem 
+        Count the Digit problem (Codewars Kata)
 
 Description:
 
+Take an integer n -> n>= 0 and a digit d -> 0 <= d <= 9
 
+Square all numbers k -> 0 <= k <= n
 
+Count the numbers of the digits d used in the writing of all k**2 
+
+Example: 
+
+nbDig 25 1  returns 11 
+
+1, 16, 81, 100, 121, 144, 169, 196, 361, 441
+^  ^    ^  ^    ^ ^  ^    ^    ^      ^    ^
+
+Because the are 11 digits 1 for the squares of numbres between o and 25 
 
 -}
 
