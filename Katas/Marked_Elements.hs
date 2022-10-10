@@ -15,4 +15,4 @@ c) [8, 2, 7, 2, 3, 4, 6, 5, 4, 4, 1, 2, 3], [2, 4, 3] -> [8, 7, 6, 5, 1]
 
 
 remove :: [Int] -> [Int] -> [Int]
-remove list1 list2 = [x | x <- list1, not (x `elem` list2) ]
+remove list1 list2 = [x | x <- list1, not(x `elem` list2) ]
