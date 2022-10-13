@@ -12,10 +12,6 @@ Solution:
 2) Get the power set -> 2^(cardinality(array)) - 1 <- substracting the empty set 
 -}
 
-{-
-removeDuplciates xs = filter (\x -> length [y | y<-xs, y==x] == 1)
--}
-
 import qualified Data.Set as Set
 
 estSubsets :: Ord a => [a] -> Integer
