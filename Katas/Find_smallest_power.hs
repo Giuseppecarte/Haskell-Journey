@@ -5,7 +5,6 @@ Description:
 -}
 
 
-findNextPower value pow_ = c
-        where a = floor (value**(1/pow_) )
-              b = a+1
-              c = b*pow_
+findNextPower :: (Integral a1, RealFrac a1, Integral a2, Floating a1) =>a1 -> a1 -> a2
+findNextPower value pow_ = lowerBound^pow_
+        where lowerBound = floor (value**(1/pow_)) + 1
